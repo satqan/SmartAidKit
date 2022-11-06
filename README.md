@@ -17,41 +17,42 @@ RESTFul service with Django for effective tracking of drugs.
 
 Create new directory:
 
-shell
+```shell
 $ mkdir SmartAidKit && cd SmartAidKit
-
+```
 Create new virtual environment:
 
-shell
+```shell
 $ python -m venv venv
-
+```
 Activate virtual environment:
 
-shell
+```shell
 $ source venv/bin/activate  (For Linux)
 $ venv/Scripts/activate  (For Windows)
-
+```
 Clone this repository:
 
-shell
+```shell
 $ git clone git@github.com:cdoos/SmartAidKit.git && cd SmartAidKit/project
-
+```
 Install requirements:
 
-shell
+```shell
 $ pip install -r requirements.txt
-
+```
 Check for any project errors:
 
-shell
+```shell
 $ python manage.py check
-
+```
 Run Django migrations to create database tables:
 
-shell
+```shell
 $ python manage.py migrate
-
+```
 Run the development server:
 
-shell
+```shell
 $ python manage.py runserver
+```
